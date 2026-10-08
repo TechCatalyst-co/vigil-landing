@@ -352,9 +352,8 @@ footer .watch .cere{font-size:.95rem;letter-spacing:.3em;color:var(--alabaster-d
     }
   }
 
-  /* Lead form → myleadhub intake */
-  const ENDPOINT = 'https://fmuhmqtxwvcgbeueaueg.supabase.co/functions/v1/intake-lead';
-  const TOKEN = 'e001a92a-1e0b-4564-a694-0820763235aa';
+  /* Lead form → /api/lead (Netlify Function holds the intake endpoint and token) */
+  const ENDPOINT = '/api/lead';
   const form = document.getElementById('lead');
   const btn = document.getElementById('submitBtn');
   const label = document.getElementById('btnLabel');
@@ -390,11 +389,10 @@ footer .watch .cere{font-size:.95rem;letter-spacing:.3em;color:var(--alabaster-d
 
     const val = id => document.getElementById(id).value.trim();
     const payload = {
-      token: TOKEN,
       first_name: val('first_name'), last_name: val('last_name'),
       email: val('email'), phone: val('phone'),
       company: val('company'), message: val('message'),
-      source: 'website'
+      website_url: val('website_url')
     };
 
     btn.disabled = true; label.textContent = 'Sending';
