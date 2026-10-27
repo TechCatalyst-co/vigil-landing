@@ -1,0 +1,29 @@
+# VIGIL
+
+> VIGIL is a warning layer for the security cameras a building already owns. When a weapon appears on camera, VIGIL confirms it and alerts the people inside the building, with a picture, in seconds, so they have time to act before help arrives. Motto: "So that others may live." VIGIL is made by TechCatalyst and is currently in preparation (pre-release).
+
+## The problem VIGIL addresses
+
+- T + 0 seconds: the camera sees the weapon the moment it is drawn, often before the first shot.
+- T + seconds: the people inside do not know yet. A teacher two doors down is still teaching; the office is still answering the phone.
+- T + minutes: help arrives. Call, dispatch, stage, enter: fast and professional, but still after the moment that mattered.
+- VIGIL fills the gap between the camera seeing a weapon and the people inside knowing about it.
+
+## Who it is for
+
+- Schools and school districts
+- Facilities
+- Public-safety partners
+
+## Key facts
+
+- Works with the cameras a building already owns.
+- Alerts the people inside the building directly, with a picture of what the camera saw.
+- Status: in preparation, not yet generally available.
+- Maker: TechCatalyst.
+
+## Links
+
+- [Website](https://www.get-vigil.com/): overview of VIGIL
+- [Teaser video](https://youtu.be/BeCitGswOJM): a first look at VIGIL
+- [Request a briefing](https://www.get-vigil.com/#briefing): contact form for schools, districts, facilities, and public-safety partners
